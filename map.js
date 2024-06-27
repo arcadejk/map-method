@@ -12,8 +12,13 @@ for (let num of nums) {
 }
 
 console.log(results);
-// Using map()
 
+// Using map()
+const multByTwo = function (num) {
+  return num * 2;
+}
+const mapResults = nums.map(multByTwo)
+console.log(mapResults);
 
 // Simplified w/ map()
 
