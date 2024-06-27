@@ -22,6 +22,8 @@ console.log(mapResults);
 
 // Simplified w/ map()
 
+const Simplified = nums.map(function (num) {return num * 2})
+console.log(Simplified);
 
 // Simplfied w/ map() + arrow function
 
